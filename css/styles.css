@@ -1,0 +1,183 @@
+body{
+    font-family: "Montserrat-Regular";
+
+}
+
+
+
+
+h1{
+    font-family: "Montserrat-Black";
+    font-size:3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-family: "Montserrat-Black";
+    font-size:2.5rem;
+    line-height: 1.5;
+
+}
+
+h2{
+    font-family: "Montserrat-Black";
+    font-size:3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+
+}
+
+.container-fluid{
+    padding: 3% 15% 3% 15%;
+}
+
+
+.nav-link{
+    color: rgb(111, 106, 106);
+    font-weight: bold;
+    
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom:2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px 0 18px;
+}
+
+.download-button{
+    margin:20% 3% 5% 0;
+}
+
+
+#title{
+    background-color: red;
+    padding-bottom: 7rem;
+    
+}
+
+.title-iphone{
+    width: 20rem;
+    height: 35rem;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+    margin:7rem;
+}
+
+#features{
+    background-color: white;
+    padding: 5rem;
+    text-align: center;
+    position: relative;
+
+  
+}
+
+.feature-icon{
+    width: 3rem;
+    height:4rem;
+}
+
+.feature-icon:hover{
+    transform: scale(1.2);
+}
+
+#testimonials{
+    padding: 7% 15% 2% 15%;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+.testimonial-image
+{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: red;
+    
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img{
+    width: 15%;
+  
+}
+
+.carousel-inner{
+    height: 70vh;
+}
+
+/* cards */
+#pricing{
+    padding: 7% 15% 2% 15%;
+    text-align: center;
+}
+
+#cta{
+    background-color: red;
+    padding: 7% 15% 2% 15%;
+    text-align: center
+}
+
+#cta h3{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 0;
+}
+
+#cta .btn{
+    margin: 0;
+
+}
+
+
+@media(max-width: 1010px){
+   .title-iphone{
+    position:static;
+    transform: rotate(0deg);
+   }
+   #title{
+       text-align: center;
+   }
+
+}
+
+.btn2{
+    background-color: white;
+    color: black;
+}
+
+.btn2:hover{
+    background-color: rgb(186, 20, 20);
+    color: rgb(13, 13, 13);
+}
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 6%;
+    margin-top: 5%;
+}
+
+.footer-image{
+    width: 1rem;
+    height: 1rem;
+    margin: 10px;
+    cursor: pointer;
+}
+
